@@ -20,3 +20,24 @@
     height: 58px;
     padding: 2rem;
 }
+
+.academic__courses__item__title, .academic__courses__item__subtitle p{
+    color: var(--color-letras);
+    margin-top: .2rem;
+}
+
+@media (min-width: 1440px) {
+    .academic__courses__box{
+        width: 270px;   
+    }
+}
+
+/*Tablet*/
+@media (min-width: 768px) {
+
+}
+
+/*Mobile*/
+@media (min-width: 425px) {
+
+}

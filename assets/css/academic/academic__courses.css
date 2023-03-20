@@ -1,3 +1,20 @@
 .academic__courses{
     width: 100%;
 }
+
+@media (min-width: 1440px) {
+    .academic__courses{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+/*Tablet*/
+@media (min-width: 768px) {
+
+}
+
+/*Mobile*/
+@media (min-width: 425px) {
+
+}

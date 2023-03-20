@@ -23,3 +23,36 @@
     font-weight: 700;
     color: var(--color-letras);
 }
+
+@media (min-width: 1440px) {
+    .title__container{
+        color: var(--color-letras);
+        margin-right: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .title__subsection{
+        font-size: 1rem;  
+    }
+
+    .title__network{
+        justify-content: flex-start;
+    }
+
+    .title__network__item a{
+        margin-right: 2rem;
+        font-size: 1rem;
+    }
+}
+
+/*Tablet*/
+@media (min-width: 768px) {
+
+}
+
+/*Mobile*/
+@media (min-width: 425px) {
+
+}

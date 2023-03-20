@@ -39,3 +39,26 @@
     padding: .5rem;
     font-weight: 600;
 }
+
+@media (min-width: 1440px) {
+    .experience__box{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .experience__img{
+        width: 70%;
+        margin-right: 1rem;
+    }
+}
+
+/*Tablet*/
+@media (min-width: 768px) {
+
+}
+
+/*Mobile*/
+@media (min-width: 425px) {
+
+}

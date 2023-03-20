@@ -1,0 +1,4 @@
+.menu__list__item a{
+    color: var(--color-letras);
+    margin-right: 1.5rem;
+}

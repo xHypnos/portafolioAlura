@@ -112,6 +112,59 @@ section.footer{
 /* Vamos a desafiarnos trabajando con responsividad?
 Utiliza las referencias de los breakpoints @media abajo */
 
+@media (min-width: 1440px) {
+    section.menu{
+        padding: 2rem 7rem;
+    }
+    
+    /*Sección Title*/
+    
+    section.title{
+        padding: 2rem 7rem;
+    }
+    
+    /*Sección About*/
+    
+    section.about{
+        padding: 2rem 7rem;
+    }
+    
+    /*Sección Skills*/
+    
+    section.skills{
+        padding: 2rem 7rem;
+    }
+    
+    /*Sección Hobbies*/
+    
+    section.hobbies{
+        padding: 2rem 7rem;  
+    }
+    
+    /* Experiencia Académica*/
+    
+    section.academic{
+        padding: 2rem 7rem;
+    }
+    
+    /* experiencia*/
+    
+    section.experience{
+        padding: 2rem 7rem;
+    }
+    
+    /*Contacto*/
+    
+    section.formcontato{
+        padding: 2rem 7rem;
+    }
+    
+    /*footeer*/
+    
+    section.footer{
+    
+    }   
+}
 
 /*Tablet*/
 @media (min-width: 768px) {

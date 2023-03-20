@@ -1,3 +1,21 @@
 .title__div{
     width: 100%;
 }
+
+@media (min-width: 1440px) {
+    .title__div{
+        display: flex;
+        flex-direction: row-reverse;
+        width: 100%;
+    }
+}
+
+/*Tablet*/
+@media (min-width: 768px) {
+
+}
+
+/*Mobile*/
+@media (min-width: 425px) {
+
+}

@@ -2,3 +2,20 @@
     width: 98px;
     margin-bottom: 1rem;
 }
+
+@media (min-width: 1440px) {
+    .title__profile{
+        width: 368px;
+        margin-bottom: 1rem;
+    }
+}
+
+/*Tablet*/
+@media (min-width: 768px) {
+
+}
+
+/*Mobile*/
+@media (min-width: 425px) {
+
+}

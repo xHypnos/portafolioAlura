@@ -1,0 +1,4 @@
+.menu__list__item__contato a{
+    color: var(--color-letras);
+    font-weight: 700;
+}
