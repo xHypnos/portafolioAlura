@@ -1,0 +1,22 @@
+.academic__courses__box{
+    padding: 1rem;
+    justify-content: center;    
+}
+
+.academic__courses__list{
+    padding: 0;
+}
+
+.academic__courses__item__img{
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: .5rem;
+}
+
+.academic__courses__item__img img{
+    width: 84px;
+    height: 58px;
+    padding: 2rem;
+}

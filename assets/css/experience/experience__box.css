@@ -1,0 +1,41 @@
+.experience__box{
+    padding: 1rem;
+}
+
+.experience__img{
+    width: 100%;
+}
+
+.experience__info{
+    color: var(--color-letras);
+}
+
+.experience__title{
+    margin: .5rem 0;
+    color: var(--color-letras);
+}
+
+.experience__text{
+    margin-bottom: .5rem;
+    color: var(--color-letras);
+}
+
+.experience__repo{
+    margin-right: .5rem;
+}
+
+.experiencia__botao--repo{
+    color: #2A7AE4;
+    border: 1px solid #2A7AE4;
+    background: transparent;
+    padding: .5rem;
+    font-weight: 600;
+}
+
+.experience__botao--demo{
+    color: #ffffff;
+    border: 1px solid #2A7AE4;
+    background: #2A7AE4;
+    padding: .5rem;
+    font-weight: 600;
+}

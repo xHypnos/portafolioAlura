@@ -1,0 +1,24 @@
+.title__container{
+    color: var(--color-letras);
+}
+
+.title__bio{
+    margin-bottom: 1rem;
+}
+
+.title__subsection{
+    font-size: .9rem;
+    font-weight: 400;   
+}
+
+.title__network{
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title__network__item a{
+    font-weight: 700;
+    color: var(--color-letras);
+}
