@@ -52,15 +52,18 @@ https://en.bem.info/methodology/quick-start/*/
 /*Sección Menu*/
 
 .btn__gotop{
+    width: 2.5rem;
     font-size: 1.5rem;
     position: fixed;
-    right: 2rem;
-    bottom: 3rem; 
+    right: 1rem;
+    bottom: 1rem; 
     z-index: 2;
     color: var(--color-letras);
-    border: 1px solid var(--color-letras);
-    border-radius: 100%;
-    padding: 1rem;
+    transition: all 500ms;
+}
+
+.btn__gotop:hover{
+    transform: scale(1.1);
 }
 
 section.menu{

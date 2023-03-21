@@ -6,6 +6,11 @@
     margin: 1rem;
     justify-content: start;
     align-items: end;
+    transition: all 500ms;
+}
+
+.hobbies__box:hover{
+    transform: scale(1.1);
 }
 
 .hobbies__box ul{

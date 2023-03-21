@@ -25,6 +25,12 @@
     color: #ffffff;
     border: none;
     padding: .7rem;
+    transition: all 500ms;
+    cursor: pointer;
+}
+
+.formcontato__botao:hover{
+    transform: scale(1.1);
 }
 
 @media (min-width: 900px) {

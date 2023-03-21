@@ -1,4 +1,12 @@
-const validateInputs = () => {
+const showBtn = () => {
+    const btn = document.querySelector(".btn__gotop");
+    window.addEventListener("scroll", () =>{
+        if(window.scrollY > 200)
+            btn.hidden = false;
+        if(window.scrollY < 200){
+            btn.hidden = true;
+        }
+    });
 };
 
 const sendMessage = (nombre,email,asunto,mensaje) => {
@@ -9,6 +17,6 @@ const sendMessage = (nombre,email,asunto,mensaje) => {
 }
 
 export const validaciones ={
-    validateInputs,
+    showBtn,
     sendMessage,
 };

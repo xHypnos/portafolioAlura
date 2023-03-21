@@ -30,6 +30,7 @@
     background: transparent;
     padding: .5rem;
     font-weight: 600;
+    transition: all 500ms;
 }
 
 .experience__botao--demo{
@@ -37,7 +38,13 @@
     border: 1px solid #2A7AE4;
     background: #2A7AE4;
     padding: .5rem;
-    font-weight: 600;
+    font-weight: 600;  
+    transition: all 500ms;
+}
+
+.experiencia__botao--repo:hover, .experience__botao--demo:hover{
+    cursor: pointer;
+    transform: scale(1.1);
 }
 
 @media (min-width: 950px) {

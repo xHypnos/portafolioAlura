@@ -3,7 +3,7 @@ import { validaciones } from "./assets/js/validaciones.js";
 
 const formulario = document.querySelector("[data-form]");
 
-validaciones.validateInputs();
+validaciones.showBtn();
 
 formulario.addEventListener("submit", (e) => {
     e.preventDefault();

@@ -1,4 +1,11 @@
+.menu__list__item__contato{
+    transition: all 500ms;
+}
+
 .menu__list__item__contato a{
     color: var(--color-letras);
     font-weight: 700;
+}
+.menu__list__item__contato:hover{
+    transform: scale(1.1);
 }

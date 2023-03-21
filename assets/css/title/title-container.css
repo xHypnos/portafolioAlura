@@ -18,11 +18,19 @@
     align-items: center;
 }
 
+.title__network__item{
+    transition: all 500ms;
+}
+
 .title__network__item a{
     font-size: .9rem;
     font-weight: 700;
     color: var(--color-letras);
-    margin-right: 1rem;
+    margin-right: .7rem;
+}
+
+.title__network__item:hover{
+    transform: scale(1.1);
 }
 
 @media (min-width: 768px) {

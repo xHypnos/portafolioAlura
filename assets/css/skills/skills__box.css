@@ -6,6 +6,11 @@
     margin: 1rem;
     justify-content: start;
     align-items: end;
+    transition: 500ms;
+}
+
+.skills__box:hover{
+    transform: scale(1.1);
 }
 
 .skills__box ul{
