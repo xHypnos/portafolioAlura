@@ -1,5 +1,12 @@
 .hobbies__line{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
+}
+
+@media (min-width: 1440px) {
+    .hobbies__line{
+        max-width: 1400px;
+        margin: auto;
+    }
 }

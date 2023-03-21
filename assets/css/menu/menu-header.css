@@ -3,3 +3,9 @@
     align-items: center;
 }
 
+@media (min-width: 1440px){
+    .menu__header{
+        max-width: 1350px;
+    }   
+}
+

@@ -13,6 +13,10 @@ coloque nas sessões indicadas*/
    --color-letras: #464646;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body {
     box-sizing: border-box;
     background-color: var(--cor-de-fundo) ;
@@ -46,6 +50,18 @@ Enlace de la documentación oficial!
 https://en.bem.info/methodology/quick-start/*/
 
 /*Sección Menu*/
+
+.btn__gotop{
+    font-size: 1.5rem;
+    position: fixed;
+    right: 2rem;
+    bottom: 3rem; 
+    z-index: 2;
+    color: var(--color-letras);
+    border: 1px solid var(--color-letras);
+    border-radius: 100%;
+    padding: 1rem;
+}
 
 section.menu{
     padding: 0.5rem;
@@ -112,9 +128,66 @@ section.footer{
 /* Vamos a desafiarnos trabajando con responsividad?
 Utiliza las referencias de los breakpoints @media abajo */
 
+@media (min-width: 768px) {
+    section.menu{
+        padding: 1rem 3rem;
+    }
+    
+    /*Sección Title*/
+    
+    section.title{
+        padding: 1rem 3rem;
+    }
+    
+    /*Sección About*/
+    
+    section.about{
+        padding: 1rem 3rem;
+    }
+    
+    /*Sección Skills*/
+    
+    section.skills{
+        padding: 1rem 3rem;
+    }
+    
+    /*Sección Hobbies*/
+    
+    section.hobbies{
+        padding: 1rem 3rem;
+    }
+    
+    /* Experiencia Académica*/
+    
+    section.academic{
+        padding: 1rem 3rem;
+    }
+    
+    /* experiencia*/
+    
+    section.experience{
+        padding: 1rem 3rem;
+    }
+    
+    /*Contacto*/
+    
+    section.formcontato{
+        padding: 1rem 3rem;
+    }
+    
+    /*footeer*/
+    
+    section.footer{
+    
+    }   
+}
+
+/*Tablet*/
 @media (min-width: 1440px) {
     section.menu{
         padding: 2rem 7rem;
+        max-width: 1400px;
+        margin: auto;
     }
     
     /*Sección Title*/
@@ -164,22 +237,6 @@ Utiliza las referencias de los breakpoints @media abajo */
     section.footer{
     
     }   
-}
-
-/*Tablet*/
-@media (min-width: 768px) {
-
-/* Menú */
-
-/*title*/
-
-/*Skills*/
-
-/*Hobbies*/
-
-/*Formación Académica*/
-
-/*Experiencia Profesional*/
 
 }
 

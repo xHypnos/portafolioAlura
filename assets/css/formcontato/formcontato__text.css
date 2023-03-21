@@ -27,7 +27,7 @@
     padding: .7rem;
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 900px) {
     .formcontato__input, .formcontato__textarea{
         margin: 1rem 0;
     }
@@ -35,14 +35,4 @@
     .formcontato__title{
         margin-bottom: 1rem;
     }
-}
-
-/*Tablet*/
-@media (min-width: 768px) {
-
-}
-
-/*Mobile*/
-@media (min-width: 425px) {
-
 }

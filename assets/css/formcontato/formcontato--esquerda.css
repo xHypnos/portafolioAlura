@@ -2,19 +2,21 @@
     display: none;
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 900px) {
     .formcontato--esquerda{
         display: flex;
         margin-right: 1rem;
     }
+
+    .formcontato__img{
+        width: 400px;
+    }
 }
 
-/*Tablet*/
-@media (min-width: 768px) {
+@media (min-width: 1000px) {
+    .formcontato__img{
+        width: auto;
+    }
 
 }
 
-/*Mobile*/
-@media (min-width: 425px) {
-
-}

@@ -2,19 +2,17 @@
     width: 100%;
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 768px) {
     .academic__courses{
         display: flex;
-        justify-content: space-between;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 }
 
-/*Tablet*/
-@media (min-width: 768px) {
-
-}
-
-/*Mobile*/
-@media (min-width: 425px) {
-
+@media (min-width: 1440px) {
+    .academic__courses{
+        max-width: 1400px;
+        margin: auto;
+    }
 }

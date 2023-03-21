@@ -40,7 +40,7 @@
     font-weight: 600;
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 950px) {
     .experience__box{
         display: flex;
         align-items: center;
@@ -53,12 +53,9 @@
     }
 }
 
-/*Tablet*/
-@media (min-width: 768px) {
-
-}
-
-/*Mobile*/
-@media (min-width: 425px) {
-
+@media (min-width: 1440px) {
+    .experience__box{
+        max-width: 1400px;
+        margin: auto;
+    }
 }

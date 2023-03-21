@@ -1,3 +1,10 @@
 .about__container{
     color: var(--color-letras);
 }
+
+@media (min-width: 1440px) {
+    .about__container{
+        max-width: 1400px;
+        margin: auto;
+    }
+}

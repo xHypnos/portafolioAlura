@@ -2,7 +2,7 @@
     width: 100%;
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 768px) {
     .title__div{
         display: flex;
         flex-direction: row-reverse;
@@ -10,12 +10,9 @@
     }
 }
 
-/*Tablet*/
-@media (min-width: 768px) {
-
-}
-
-/*Mobile*/
-@media (min-width: 425px) {
-
+@media (min-width: 1440px) {
+    .title__div{
+        max-width: 1400px;
+        margin: auto;
+    }
 }

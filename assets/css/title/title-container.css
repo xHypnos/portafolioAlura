@@ -14,7 +14,7 @@
 .title__network{
     padding: 0;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
 }
 
@@ -22,9 +22,10 @@
     font-size: .9rem;
     font-weight: 700;
     color: var(--color-letras);
+    margin-right: 1rem;
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 768px) {
     .title__container{
         color: var(--color-letras);
         margin-right: 1rem;
@@ -37,10 +38,6 @@
         font-size: 1rem;  
     }
 
-    .title__network{
-        justify-content: flex-start;
-    }
-
     .title__network__item a{
         margin-right: 2rem;
         font-size: 1rem;
@@ -48,7 +45,7 @@
 }
 
 /*Tablet*/
-@media (min-width: 768px) {
+@media (min-width: 1440px) {
 
 }
 

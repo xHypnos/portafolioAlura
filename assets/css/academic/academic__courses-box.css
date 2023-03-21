@@ -26,18 +26,12 @@
     margin-top: .2rem;
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 768px) {
     .academic__courses__box{
         width: 270px;   
     }
 }
 
-/*Tablet*/
-@media (min-width: 768px) {
-
-}
-
-/*Mobile*/
-@media (min-width: 425px) {
+@media (min-width: 1440px) {
 
 }
